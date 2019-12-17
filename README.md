@@ -1,2 +1,2 @@
 # NotesOfAll
-This repo is created to record learning notes
+个人笔记及心得
