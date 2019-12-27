@@ -44,6 +44,6 @@ x is: 2
 let x = "1";
 let x = 1; //正常运行不会报错
 
-let x = "1";
+let mut x = "1";
 x = 1; //会报：expected &str, found usize的错
 ```
