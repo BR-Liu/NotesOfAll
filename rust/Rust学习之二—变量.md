@@ -45,5 +45,5 @@ let x = "1";
 let x = 1; //正常运行不会报错
 
 let mut x = "1";
-x = 1; //会报：expected &str, found usize的错
+x = 1; //会报：expected &str, found usize的错，错误的含义是期望string类型，但实际是无符号整数，由此可见可变变量的数据类型是不允许修改的。
 ```
